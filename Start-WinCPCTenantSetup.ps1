@@ -38,7 +38,7 @@ $script:AVDAppId   = "9cdead84-a844-4324-93f2-b2e6bb768d07"  # Azure Virtual Des
 $script:WCLAppId   = "270efc09-cd0d-444b-a71f-39af4910ec45"  # Windows Cloud Login
 
 # License SKU part name patterns
-$script:W365SkuParts = @("CPC_E_","CPC_B_","CPC_F_","WIN365")
+$script:W365SkuParts = @("CPC_E_","CPC_B_","CPC_F_","WIN365","Windows_365_")  # Windows_365_ covers FedRAMP/Gov SKUs
 $script:IntuneSkuParts = @(
     "INTUNE_A","Intune_EDU","INTUNE_SMB","Microsoft_Intune_Suite",
     "SPE_E3","SPE_E5","Microsoft_365_E5","Microsoft_365_E3","SPB",
