@@ -42,15 +42,17 @@ $script:W365SkuParts = @("CPC_E_","CPC_B_","CPC_F_","WIN365")
 $script:IntuneSkuParts = @(
     "INTUNE_A","Intune_EDU","INTUNE_SMB","Microsoft_Intune_Suite",
     "SPE_E3","SPE_E5","Microsoft_365_E5","Microsoft_365_E3","SPB",
-    "Microsoft_365_Business_Premium","EMSPREMIUM", "Microsoft_365_A3",
+    "Microsoft_365_Business_Premium","EMSPREMIUM","Microsoft_365_A3",
     "Microsoft_365_A5","SPE_A3","SPE_A5","Microsoft_365_G3",
-    "Microsoft_365_G5","SPE_G3","SPE_G5" 
+    "Microsoft_365_G5","SPE_G3","SPE_G5",
+    "M365EDU_","M365GOV_"  # EDU (M365EDU_A3/A5_FACULTY/STUDENT) and Gov tenants
 )
 $script:EntraPremiumSkuParts = @(
     "AAD_PREMIUM","EMSPREMIUM","SPE_E3","SPE_E5","Microsoft_365_E5",
-    "Microsoft_365_E3","SPB","Microsoft_365_Business_Premium","EMS", 
+    "Microsoft_365_E3","SPB","Microsoft_365_Business_Premium","EMS",
     "Microsoft_365_A3","Microsoft_365_A5","SPE_A3","SPE_A5",
-    "Microsoft_365_G3","Microsoft_365_G5","SPE_G3","SPE_G5"
+    "Microsoft_365_G3","Microsoft_365_G5","SPE_G3","SPE_G5",
+    "M365EDU_","M365GOV_"  # EDU (M365EDU_A3/A5_FACULTY/STUDENT) and Gov tenants
 )
 
 # ============================================================================
